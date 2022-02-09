@@ -1,0 +1,182 @@
+.home{
+    display: flex;
+    flex-direction: column;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    background-color: azure;
+    padding: 10px 50px 10px 50px;
+    width: auto;
+}
+
+.banner > *{
+    font-size: 18px;
+    font-family: 'Cairo',sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.research{
+    background-color: bisque;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 30px 40px 0px;
+    text-align: center;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 80%;
+    height: 8vh;
+    border-radius: 16px;
+    margin-top: 15px;
+    background-color: #ffffff;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1pt 4pt, rgb(0 0 0 / 8%) 0px 2pt 8pt;
+}
+.depart{
+    display: flex;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: stretch;
+    width: 30%;
+}
+.destination,.calendar{
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: stretch;
+    width: 30%;
+}
+.departButton,.destinationButton,.calendarButton{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95%;
+    background-color: #ffffff;
+    border-right: 1px solid #dee2e4;
+    cursor: pointer;
+}
+.passagerButton{
+    padding-left: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.searchH{
+    display: flex;
+    align-items: stretch;
+    width: 10%;
+}
+.searchButton{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    background-color: #00AFF5;
+    color: #ffffff;
+}
+.iconH{
+    color: #708C91;
+    font-size: 20px;
+    padding-top: 8px;
+    margin-right: 2px;
+}
+.bt{
+    font-family: 'Cairo',sans-serif;
+    font-weight: 600;
+    color: #708C91;
+    font-size: 16px;
+}
+.searchIcon{
+    font-size: 26px;
+}
+.line{
+    display: none;
+}
+@media screen and (max-width: 1039px) {
+    .forms{
+        flex-direction: column;
+        width: 90%;
+        border-radius: 12px;
+        background-color: rgb(255, 255, 255);
+        height: 242px;
+        padding-top: 16px;
+        display: flex;
+        justify-content: stretch;
+        align-items: stretch;
+        margin-bottom: 10px;
+    }
+    .depart,.destination,.calendar{
+        padding: 0px;
+        width: 100%;
+        padding: 0px 24px 0px 24px;
+    }
+    .departButton,.destinationButton,.passagerButton{
+        border:none;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        height: 40px;
+    }
+    .calendarButton{
+        padding-bottom: 8px;
+        padding-top: 8px;
+        height: 40px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .calendar{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 16px;
+    }
+    .searchH{
+        width: 100%;
+        height: 100%;
+    }
+    .searchButton{
+        border-bottom-left-radius: 12px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 12px;
+
+
+    }
+    .line{
+        display: block;
+        margin: 8px 0px;
+        padding-left: 12px;
+        border: none;
+        height: 1px;
+        background-color: rgb(237,237,237);
+    }
+    .title{
+        font-size: 30px;
+    }
+}

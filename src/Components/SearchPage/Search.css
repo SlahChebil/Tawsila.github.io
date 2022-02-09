@@ -1,0 +1,148 @@
+.search{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+
+}
+.searching{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 76px;
+    padding-top: 10px;
+}
+.inputs{
+    background-color:#EDEDED;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 16px;
+    width: 614px;
+    height: 55px;
+    justify-content: flex-start;
+    padding: 0px 16px;
+}
+.inputs > span{
+    display: flex;
+    font-size: 25px;
+    color: 
+    #72888b;
+}
+.inputs>.texts{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 20px;
+    justify-content: center;
+    
+}
+.inputs>.texts>.fouqq{
+    display: flex;
+    align-items: center;
+}
+.inputs>.texts>.fouqq>.Mnin{
+    font-size: 16px;
+    padding: 0px;
+    font-weight: 700;
+    font-family: 'Open Sans',sans-serif;
+}
+.shh{
+    margin: 0px 3px;
+    align-self: center;
+    justify-self: center;
+    padding-top: 2px;
+    font-size: 25px;
+    color: #72888b;
+
+}
+.inputs>.texts>span{
+    color: #72888b;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+}
+.moinsCher{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+}
+.card{
+    box-shadow: rgb(0 0 0 / 16%) 0px 1pt 4pt, rgb(0 0 0 / 8%) 0px 2pt 8pt;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 566px;
+    padding: 16px;
+}
+.card>.account{
+    display: flex;
+    align-items: center;
+}
+.card>.account>.profile{
+    color: #72888b;
+    font-size: 60px;
+}
+.card>.account>span{
+    color: #054752;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans',sans-serif;
+    padding-left: 10px;
+    display: flex;
+    align-self: flex-start;
+    padding-top: 3px;
+
+}
+.card>.details{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+}
+.card>.details>.time{
+    display: flex;
+}
+.card>.details>.time>.times{
+    display: flex;
+    flex-direction: column;
+}
+.card>.details>.time>.times>.start,.finsih{
+    color: #054752;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+}
+.card>.details>.time>.times>.duration{
+    color: #72888b;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.card>.details>.time>.times>.finsih{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+.card>.details>.time>.startDestination{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.card>.details>.time>.startDestination>span{
+    color: #054752;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+}
+.card>.details>.time>.startDestination>.start{
+    height: 30%;
+}
+.card>.details>.time>.startDestination>.destination{
+    height: 70%;
+    align-items: center;
+    display: flex;
+    padding-top: 13px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+}

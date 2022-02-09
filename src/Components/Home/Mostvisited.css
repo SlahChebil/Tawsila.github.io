@@ -1,0 +1,68 @@
+.most{
+    display: flex;
+}
+.mostVisited{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #054752;
+    padding: 0px 24px;
+    justify-content: center;
+    height: 214.5px;
+}
+.heading{
+    padding: 24px 0px;
+    color: #ffff;
+    font-size: 30px;
+    font-family: 'Open Sans',sans-serif;
+}
+.unlist{
+    display: grid;
+    gap: 8px 16px;
+    flex-direction: row;
+    display: flex;
+}
+.dest{
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    height: 85.5px;
+    border-radius: 8px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 16px 24px;
+}
+.text{
+    display: flex;
+    align-items: center;
+}
+.text>span{
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+    color:#054752;
+    font-weight: 600;
+}
+.arrow{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 24px;
+    color: rgb(80, 78, 78);
+}
+.arrowSmall{
+    padding-top: 6px;
+    font-size: 25px;
+    color: rgb(80, 78, 78);
+}
+.showMore{
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 0px 24px 0px;
+}
+.showMore>span{
+    font-size: 18px;
+    font-family: 'Open Sans',sans-serif;
+    color: #00AFF5;
+    font-weight: 600;
+}

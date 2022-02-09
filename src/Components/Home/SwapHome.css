@@ -1,0 +1,44 @@
+.Swap{
+    display: flex;
+    justify-content: center;
+}
+.swapHome{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+.swapHome>*{
+    margin: 24px 0px;
+    padding: 0px 24px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.image{
+    width: 600px;
+    margin-right: 24px ;
+}
+.titleS{
+    font-size: 30px;
+}
+.parg{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.buttonS{
+    background-color: #00AFF5;
+    border: none;
+    border-radius: 16px;
+    height: 48px;
+    width: 229px;
+    font-size: 16px;
+    color: #ffff;
+    font-weight: 700;
+}
+
+.rightp{
+    text-align: right;
+}

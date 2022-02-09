@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+.benefitsHome{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.benefits{
+    display: flex;
+    padding: 24px 24px 48px;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.benefits>*{
+    flex:1 1 0%;
+    min-width: 320px;
+    padding-right: 25px;
+}
+h1{
+    font-size: 19px;
+    color: #054752;
+    padding: 8px 0px 4px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 700;
+}
+p{
+    color: #708C91;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+.coins{
+    color: #708C91;
+    font-size: 36px;
+    margin-bottom: 8px;
+}

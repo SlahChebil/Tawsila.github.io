@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 2%;
+    top: 0px;
+    z-index: 100;
+    border-bottom: 1px solid #cfd3d4;
+
+}
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 20px;
+    min-width: 500px;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    padding: 0px 20px;
+}
+.left>*{
+    padding: 20px;
+}
+.logo{
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.opt{
+    font-family: 'Cairo',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #00AFF5;
+    cursor: pointer;
+}
+.right > *{
+    font-family: 'Cairo',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0px 20px;
+    color :#00AFF5;
+}
+.search,.publier,.profile,.bb{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    line-height: 20px;
+}
+.ss{
+    display: flex;
+    align-items: center;
+}
+
+.mobileDrop{
+    display: none;
+}
+.dropdown{
+    position: fixed;
+    top: 70px;
+    right: 2%;
+    display: none;
+    padding: 0px 10px;
+    flex-direction: column;
+    line-height: 60px;
+    width: 380px;
+    background-color: antiquewhite;
+    transition: 1ms ease-in-out;
+    box-shadow: rgb(0 0 0 / 30%) 0px 36px 36px 0px;
+}
+.dropdown > *{
+    list-style: none;
+    color: black;
+    font-family: 'Cairo',sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hamburger{
+    display: none;
+    color: black;
+}
+
+@media screen and (max-width: 1039px) {
+    .hamburger{
+        display: block;
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+    
+    .opt{
+        display: none;
+        position: fixed;
+    }
+    .bb{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    .left{
+        min-width: 0px;
+        padding: 0px 0px;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .right > *{
+        padding: 0px 0px;
+    }
+    .logo{
+        font-size: 30px;
+        padding: 0px 0px 00px 0px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #cfd3d4;
+        height: 70px;
+    }
+    .dropdown{
+        position: absolute;
+        display: block;
+        left: 0%;
+        width: 85%;
+        padding: 0px 30px;
+        max-width: 450px;
+    }
+    .mobileDrop{
+        display: block;
+    }
+}
